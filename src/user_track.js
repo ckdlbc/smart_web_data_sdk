@@ -16,7 +16,7 @@ class USER_TRACK {
    * @param {String} prop 
    */
   _is_reserved_property(prop) {
-    return PEOPLE_RESERVED_PROPERTY.indexOf('prop') > -1;
+    return PEOPLE_RESERVED_PROPERTY.indexOf(prop) > -1;
   }
   /**
    * 上报用户属性数据
